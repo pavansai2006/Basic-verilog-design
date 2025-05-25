@@ -1,4 +1,4 @@
-module gate_logic(a,b,and_out,or_out,not_out,nand_out,nor_out,xor_out,xnor_out);
+module gate_data(a,b,and_out,or_out,not_out,nand_out,nor_out,xor_out,xnor_out);
   input a,b;
   output and_out,or_out,not_out,nand_out,nor_out,xor_out,xnor_out;
   assign and_out=a&b;
